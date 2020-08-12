@@ -9,12 +9,12 @@ use egg_mode::search::{self, ResultType};
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
     let con_token = egg_mode::KeyPair::new(
-        "4E9IhvYn8IVpAOQOopx9YUj8B",
-        "VUdZ9EU2K75RU9rwXdPzsGBez1cq7dY3oIlCIfXOBs5MQaGx81",
+        "••••••",
+        "••••••",
     );
     let access_token = egg_mode::KeyPair::new(
-        "1274672431286775808-axPGIZ8FnMROdhr0H5sRl1TGwelO72",
-        "OSvvc6MdHu34JjOtxSjEVUGJh2NhVdEhpgqoKZqvpFFbn",
+        "••••••",
+        "•••••",
     );
 
     let token = egg_mode::Token::Access {
